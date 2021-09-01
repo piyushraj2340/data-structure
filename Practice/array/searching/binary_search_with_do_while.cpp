@@ -7,7 +7,8 @@ int binary_search(int *, int, int);
 
 int main()
 {
-    int size = 10;
+    const int size = 10;
+
     int search_elem;
 
     int arry[size] = {5,7,9,11,15,20,30,45,89,97};
