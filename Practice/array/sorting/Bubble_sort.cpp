@@ -9,7 +9,7 @@ int main()
 
     const int n = 10;
 
-    int arry[n] = {2,24,53,1,43,2,89,9,9,10};//average case
+    int arry[n] = {2,24,53,1,43,2,89,9,9,10}; //average case
     // int arry[n] = {1,2,3,4,50,6,7,8,9,10};  // some othe case
     // int arry[n] = {1,2,3,4,5,6,7,8,9,10}; // best case
     // int arry[n] = {100,90,80,70,60,50,40,30,20,10}; // worst case 
