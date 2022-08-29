@@ -16,6 +16,9 @@ int main() {
     // int arr[size] = {100,90,80,70,60,50,40,30,20,10}; // worst case
     // int arr[size] = {10,20,30,40,50,60,70,80,90,100};  // best case
 
+
+    // for very large data sorting
+   
     // insertElem(arr, 4, 1);
 
     InsertionSort(arr,size);
@@ -35,7 +38,7 @@ void insertElem(int arr[], int n,int index) {
         arr[j] = arr[j - 1];
     }
     arr[index] = temp;
-} 
+}
 
 void InsertionSort(int arr[], int n) {
     for(int i = 1; i < n; i++) {
@@ -49,8 +52,6 @@ void InsertionSort(int arr[], int n) {
                     insertElem(arr,i,0);
                 }
             }
-
         }
     }
-    
 }

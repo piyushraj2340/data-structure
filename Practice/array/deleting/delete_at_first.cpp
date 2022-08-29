@@ -11,25 +11,25 @@ int main() {
     cout << "Enter the size of array less then 50: ";
     cin >> size;
 
-    int arry[MAX_SIZE];
+    int arr[MAX_SIZE];
 
     cout << "\nEnter the Element to an array: ";
     for(int i = 0; i < size; i++) {
         cout << "\nAt index [" << i << "] : ";
-        cin >> arry[i];
+        cin >> arr[i];
     }
 
 
 
     for(int i = 0; i < size; i++) {
-        arry[i] = arry[i+1];
+        arr[i] = arr[i+1];
     }
 
     size = size - 1;
 
     cout << "\nThe Element in the array is: ";
     for(int i = 0; i < size; i++) {
-        cout << "\nAt index [" << i << "] : " << arry[i] << endl;
+        cout << "\nAt index [" << i << "] : " << arr[i] << endl;
     }
 
 
